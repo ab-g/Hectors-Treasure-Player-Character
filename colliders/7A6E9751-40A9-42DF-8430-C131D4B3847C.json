@@ -1,0 +1,1 @@
+{"@class":"Collider","id":{"uuid":"7A6E9751-40A9-42DF-8430-C131D4B3847C"},"colliderInfo":[{"@class":"ColliderInfo","collisionShape":"box","alongAxis":"oy","center":{"values":[-0.038899801671504977,1.4314628839492798,0.0]},"params":{"values":[0.9222003817558289,3.8629252910614015,1.0]},"color":{"values":[1.0,1.0,1.0]},"isSelected":false}]}
