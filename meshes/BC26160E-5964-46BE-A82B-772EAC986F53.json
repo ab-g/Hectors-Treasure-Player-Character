@@ -1,1 +1,13 @@
-{"@class":"Mesh","id":{"uuid":"BC26160E-5964-46BE-A82B-772EAC986F53"},"hasPositions":true,"hasColors":false,"hasUV":true,"hasNormals":true,"hasTangents":true,"hasBinormals":true,"hasSkinAttributes":true}
+{
+  "@class": "Mesh",
+  "id": {
+    "uuid": "BC26160E-5964-46BE-A82B-772EAC986F53"
+  },
+  "hasPositions": true,
+  "hasColors": false,
+  "hasUV": true,
+  "hasNormals": true,
+  "hasTangents": true,
+  "hasBinormals": true,
+  "hasSkinAttributes": true
+}

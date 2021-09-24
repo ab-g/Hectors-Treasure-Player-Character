@@ -1,1 +1,35 @@
-{"@class":"Collider","id":{"uuid":"B0ED15F8-82A2-4ED8-BFC7-5C9AA0D27F61"},"colliderInfo":[{"@class":"ColliderInfo","collisionShape":"box","alongAxis":"oy","center":{"values":[-0.10243940353393555,0.7111524939537048,0.0]},"params":{"values":[0.6964860558509827,1.39529287815094,1.0]},"color":{"values":[1.0,1.0,1.0]},"isSelected":false}]}
+{
+  "@class": "Collider",
+  "id": {
+    "uuid": "B0ED15F8-82A2-4ED8-BFC7-5C9AA0D27F61"
+  },
+  "colliderInfo": [
+    {
+      "@class": "ColliderInfo",
+      "collisionShape": "box",
+      "alongAxis": "oy",
+      "center": {
+        "values": [
+          -0.10243940353393555,
+          0.7111524939537048,
+          0
+        ]
+      },
+      "params": {
+        "values": [
+          0.6964860558509827,
+          1.39529287815094,
+          1
+        ]
+      },
+      "color": {
+        "values": [
+          1,
+          1,
+          1
+        ]
+      },
+      "isSelected": false
+    }
+  ]
+}

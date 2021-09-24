@@ -1,1 +1,294 @@
-{"@class":"BaseScene","id":{"uuid":"CFF23E7E-50B7-43BA-9CEA-F74FAEE82C9B"},"name":"Level","nodes":[{"@class":"BaseNode","object3D":{"@class":"BaseObject3D","id":{"uuid":"03015175-F1A9-4275-B9D5-6604E71BB4DD"},"name":"UserRootObject","enabled":true,"visible":false,"hitVisible":true,"transform":{"@class":"BaseComponentTransformable","localTransforms":{"values":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]}},"metadata":{"importedIdentifier":"","importedName":"","isBone":false}},"children":["3072C5E6-1648-448E-9B32-FD77A0351E65","BFF6D5FA-CAEB-4C82-A718-334375C01085","301B250C-A4DE-414F-A8A0-CDB713B15277"]},{"@class":"BaseNode","object3D":{"@class":"BaseObject3D","id":{"uuid":"3072C5E6-1648-448E-9B32-FD77A0351E65"},"name":"MainCamera","enabled":true,"visible":true,"hitVisible":true,"camera":{"@class":"BaseComponentCamera","cameraId":{"uuid":"74A78C6B-5887-4E9B-A505-234ABE68A358"}},"transform":{"@class":"BaseComponentTransformable","localTransforms":{"values":[0.8660252094268799,-1.1920926823449918e-7,0.5,0.0,0.2500002384185791,0.8660252690315247,-0.43301281332969668,0.0,-0.4330127537250519,0.5000002980232239,0.7499999403953552,0.0,1.3011856079101563,1.9999990463256837,15.000000953674317,1.0]}},"metadata":{"importedIdentifier":"","importedName":"","isBone":false}}},{"@class":"BaseNode","color_index":1,"object3D":{"@class":"BaseObject3D","id":{"uuid":"BFF6D5FA-CAEB-4C82-A718-334375C01085"},"name":"MainCharacter","enabled":true,"visible":true,"hitVisible":true,"spawner":{"@class":"BaseComponentSpawner","characterScriptId":{"uuid":"B0163040-BA9B-495D-8D5B-9AD0F08B6146"}},"transform":{"@class":"BaseComponentTransformable","localTransforms":{"values":[1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]}},"metadata":{"importedIdentifier":"","importedName":"","isBone":false}}},{"@class":"BaseNode","object3D":{"@class":"BaseObject3D","id":{"uuid":"301B250C-A4DE-414F-A8A0-CDB713B15277"},"name":"Plane","enabled":true,"visible":true,"hitVisible":true,"colliders":[{"@class":"BaseComponentCollider","colliderId":{"uuid":"3BFC8EE9-0F8E-4DB6-965C-B87EC43A5D1F"}}],"geometry":{"@class":"BaseComponentGeometry","meshId":{"uuid":"1C37AD9F-6E8D-461A-9DB6-509D5DDB075A"},"static":false,"shadowCast":true,"shadowReceive":true},"material":{"@class":"BaseComponentMaterial","materialId":{"uuid":"B5CDE95A-C3F8-4AD4-AB79-5E974816ADA2"},"mapsStates":0},"rigidBody":{"@class":"BaseComponentPhysBody","rigidBodyId":{"uuid":"E5161319-CF43-4CCE-B0A0-C0422609E2E0"},"isEnabled":true},"transform":{"@class":"BaseComponentTransformable","localTransforms":{"values":[16.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]}},"metadata":{"importedIdentifier":"","importedName":"","isBone":false}}}],"scriptSystem":{"@class":"BaseScriptSystem","scripts":[{"@class":"Script_SkyBox","id":{"uuid":"5593BDAE-DDA6-47E7-9D31-44086B70BE4F"}},{"@class":"Script_Sun","id":{"uuid":"94F4EBEB-B0D1-4BCE-BA81-6842E6A38D19"}},{"@class":"Script_Gravity","id":{"uuid":"AB6B5A2F-A372-4549-B0E4-7BFA45F78F3D"}},{"@class":"CameraFollowScript","id":{"uuid":"35AEF907-9B1E-48D1-888D-AA1A21E5652E"}},{"@class":"Script_PostFX","id":{"uuid":"6E2B5962-68A0-4395-AF41-57B479D59733"}},{"@class":"MainCharacterScript","id":{"uuid":"B0163040-BA9B-495D-8D5B-9AD0F08B6146"}},{"@class":"TimeLineScript","id":{"uuid":"130D1B39-3310-49F9-A084-40034076059B"}},{"@class":"TimeLineScript","id":{"uuid":"3E74B209-42A0-4090-94E4-4F4DE3EDFDF0"}},{"@class":"TimeLineScript","id":{"uuid":"1866A820-41DD-4A40-9561-03AF112A0633"}},{"@class":"TimeLineScript","id":{"uuid":"299688C6-1019-4261-97F4-2B249AECBC00"}},{"@class":"TimeLineScript","id":{"uuid":"E37AFDD4-8FFA-4550-BB32-40DCC78076E0"}}]},"assetsNames":[]}
+{
+  "@class": "BaseScene",
+  "id": {
+    "uuid": "CFF23E7E-50B7-43BA-9CEA-F74FAEE82C9B"
+  },
+  "name": "Level",
+  "nodes": [
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "03015175-F1A9-4275-B9D5-6604E71BB4DD"
+        },
+        "name": "UserRootObject",
+        "enabled": true,
+        "visible": false,
+        "hitVisible": true,
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      },
+      "children": [
+        "3072C5E6-1648-448E-9B32-FD77A0351E65",
+        "BFF6D5FA-CAEB-4C82-A718-334375C01085",
+        "301B250C-A4DE-414F-A8A0-CDB713B15277"
+      ]
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "3072C5E6-1648-448E-9B32-FD77A0351E65"
+        },
+        "name": "MainCamera",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "camera": {
+          "@class": "BaseComponentCamera",
+          "cameraId": {
+            "uuid": "74A78C6B-5887-4E9B-A505-234ABE68A358"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              0.8660252094268799,
+              -1.1920926823449918e-07,
+              0.5,
+              0,
+              0.2500002384185791,
+              0.8660252690315247,
+              -0.43301281332969666,
+              0,
+              -0.4330127537250519,
+              0.5000002980232239,
+              0.7499999403953552,
+              0,
+              1.3011856079101562,
+              1.9999990463256836,
+              15.000000953674316,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "color_index": 1,
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "BFF6D5FA-CAEB-4C82-A718-334375C01085"
+        },
+        "name": "MainCharacter",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "spawner": {
+          "@class": "BaseComponentSpawner",
+          "characterScriptId": {
+            "uuid": "B0163040-BA9B-495D-8D5B-9AD0F08B6146"
+          }
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    },
+    {
+      "@class": "BaseNode",
+      "object3D": {
+        "@class": "BaseObject3D",
+        "id": {
+          "uuid": "301B250C-A4DE-414F-A8A0-CDB713B15277"
+        },
+        "name": "Plane",
+        "enabled": true,
+        "visible": true,
+        "hitVisible": true,
+        "colliders": [
+          {
+            "@class": "BaseComponentCollider",
+            "colliderId": {
+              "uuid": "3BFC8EE9-0F8E-4DB6-965C-B87EC43A5D1F"
+            }
+          }
+        ],
+        "geometry": {
+          "@class": "BaseComponentGeometry",
+          "meshId": {
+            "uuid": "1C37AD9F-6E8D-461A-9DB6-509D5DDB075A"
+          },
+          "static": false,
+          "shadowCast": true,
+          "shadowReceive": true
+        },
+        "material": {
+          "@class": "BaseComponentMaterial",
+          "materialId": {
+            "uuid": "B5CDE95A-C3F8-4AD4-AB79-5E974816ADA2"
+          },
+          "mapsStates": 0
+        },
+        "rigidBody": {
+          "@class": "BaseComponentPhysBody",
+          "rigidBodyId": {
+            "uuid": "E5161319-CF43-4CCE-B0A0-C0422609E2E0"
+          },
+          "isEnabled": true
+        },
+        "transform": {
+          "@class": "BaseComponentTransformable",
+          "localTransforms": {
+            "values": [
+              16,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          }
+        },
+        "metadata": {
+          "importedIdentifier": "",
+          "importedName": "",
+          "isBone": false
+        }
+      }
+    }
+  ],
+  "scriptSystem": {
+    "@class": "BaseScriptSystem",
+    "scripts": [
+      {
+        "@class": "Script_SkyBox",
+        "id": {
+          "uuid": "5593BDAE-DDA6-47E7-9D31-44086B70BE4F"
+        }
+      },
+      {
+        "@class": "Script_Sun",
+        "id": {
+          "uuid": "94F4EBEB-B0D1-4BCE-BA81-6842E6A38D19"
+        }
+      },
+      {
+        "@class": "Script_Gravity",
+        "id": {
+          "uuid": "AB6B5A2F-A372-4549-B0E4-7BFA45F78F3D"
+        }
+      },
+      {
+        "@class": "CameraFollowScript",
+        "id": {
+          "uuid": "35AEF907-9B1E-48D1-888D-AA1A21E5652E"
+        }
+      },
+      {
+        "@class": "Script_PostFX",
+        "id": {
+          "uuid": "6E2B5962-68A0-4395-AF41-57B479D59733"
+        }
+      },
+      {
+        "@class": "MainCharacterScript",
+        "id": {
+          "uuid": "B0163040-BA9B-495D-8D5B-9AD0F08B6146"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "130D1B39-3310-49F9-A084-40034076059B"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "3E74B209-42A0-4090-94E4-4F4DE3EDFDF0"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "1866A820-41DD-4A40-9561-03AF112A0633"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "299688C6-1019-4261-97F4-2B249AECBC00"
+        }
+      },
+      {
+        "@class": "TimeLineScript",
+        "id": {
+          "uuid": "E37AFDD4-8FFA-4550-BB32-40DCC78076E0"
+        }
+      }
+    ]
+  },
+  "assetsNames": []
+}

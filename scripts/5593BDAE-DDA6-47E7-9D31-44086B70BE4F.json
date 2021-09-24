@@ -1,1 +1,31 @@
-{"@class":"Script_SkyBox","id":{"uuid":"5593BDAE-DDA6-47E7-9D31-44086B70BE4F"},"name":"Script_SkyBox","enableOnAwake":true,"resolution":256,"topColor":{"values":[64.0,127.0,191.0]},"mdlColor":{"values":[255.0,255.0,255.0]},"btmColor":{"values":[13.0,26.0,64.0]},"scattering":0.75}
+{
+  "@class": "Script_SkyBox",
+  "id": {
+    "uuid": "5593BDAE-DDA6-47E7-9D31-44086B70BE4F"
+  },
+  "name": "Script_SkyBox",
+  "enableOnAwake": true,
+  "resolution": 256,
+  "topColor": {
+    "values": [
+      64,
+      127,
+      191
+    ]
+  },
+  "mdlColor": {
+    "values": [
+      255,
+      255,
+      255
+    ]
+  },
+  "btmColor": {
+    "values": [
+      13,
+      26,
+      64
+    ]
+  },
+  "scattering": 0.75
+}

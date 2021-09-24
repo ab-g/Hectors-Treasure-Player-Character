@@ -1,1 +1,25 @@
-{"@class":"PhysicsBody","id":{"uuid":"D8EAB15A-83CD-4C86-88A3-64B1CB3783EE"},"physBodyType":"triggerVolume","physSurfaceType":"defaultSurfaceType","mass":10.0,"friction":1.0,"bounciness":0.5,"lockPositionX":false,"lockPositionY":false,"lockPositionZ":false,"lockRotationX":false,"lockRotationY":false,"lockRotationZ":false,"gravity":{"values":[0.0,0.0,0.0]},"useCustomGravity":false}
+{
+  "@class": "PhysicsBody",
+  "id": {
+    "uuid": "D8EAB15A-83CD-4C86-88A3-64B1CB3783EE"
+  },
+  "physBodyType": "triggerVolume",
+  "physSurfaceType": "defaultSurfaceType",
+  "mass": 10,
+  "friction": 1,
+  "bounciness": 0.5,
+  "lockPositionX": false,
+  "lockPositionY": false,
+  "lockPositionZ": false,
+  "lockRotationX": false,
+  "lockRotationY": false,
+  "lockRotationZ": false,
+  "gravity": {
+    "values": [
+      0,
+      0,
+      0
+    ]
+  },
+  "useCustomGravity": false
+}

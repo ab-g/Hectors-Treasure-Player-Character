@@ -1,1 +1,15 @@
-{"@class":"Script_Gravity","id":{"uuid":"AB6B5A2F-A372-4549-B0E4-7BFA45F78F3D"},"name":"Script_Gravity","enableOnAwake":true,"direction":{"values":[0.0,-9.779999732971192,0.0]}}
+{
+  "@class": "Script_Gravity",
+  "id": {
+    "uuid": "AB6B5A2F-A372-4549-B0E4-7BFA45F78F3D"
+  },
+  "name": "Script_Gravity",
+  "enableOnAwake": true,
+  "direction": {
+    "values": [
+      0,
+      -9.779999732971191,
+      0
+    ]
+  }
+}

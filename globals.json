@@ -1,1 +1,134 @@
-{"@class":"VariousSymbolTable","id":{"uuid":"777D4E1E-A4E3-4796-8278-456CFB772E75"},"variables":[{"@class":"VariantVariable","id":{"uuid":"4C100503-6193-4584-A82C-27D0F2499672"},"name":"object__17F73B54_6D50_4C83_8BEC_DD89E8597E4C__Direction","type":"float","value":1.0},{"@class":"VariantVariable","id":{"uuid":"582D1AB2-40E9-410E-A15D-F53CDDA7F1D0"},"name":"object__17F73B54_6D50_4C83_8BEC_DD89E8597E4C__Pos_x","type":"float","value":0.0},{"@class":"VariantVariable","id":{"uuid":"7DF7ECF2-8E6A-4B9D-AEF9-D7292269BE14"},"name":"object__2833DFA8_C3A3_4DB9_B4B0_F57D70A9546C__Direction","type":"float","value":1.0},{"@class":"VariantVariable","id":{"uuid":"3C8FB8D2-F81C-46FF-8743-1D38AABF645B"},"name":"object__2833DFA8_C3A3_4DB9_B4B0_F57D70A9546C__Pos_x","type":"float","value":0.0},{"@class":"VariantVariable","id":{"uuid":"E000C4BB-8270-4296-B049-A978E688A656"},"name":"object__2ECB3BA4_F2F4_42DD_86E8_322283040C6C__animation_playing","type":"float","value":0.0},{"@class":"VariantVariable","id":{"uuid":"57536806-BCA9-4CD4-8779-46BF04B3632E"},"name":"object__2FA6F5CF_ABBB_4F79_BCA3_467873494B1F__exit_time","type":"bool","value":true},{"@class":"VariantVariable","id":{"uuid":"6C98B095-A1AD-494D-BC0F-FBAC1BAB30C5"},"name":"object__5693F046_251D_4294_81AE_00D8806FFE88__Scorp_Direction","type":"float","value":1.0},{"@class":"VariantVariable","id":{"uuid":"3A05D5B0-119F-4661-BFDC-168257F89285"},"name":"object__5693F046_251D_4294_81AE_00D8806FFE88__Scorp_Speed","type":"float","value":1.0},{"@class":"VariantVariable","id":{"uuid":"E6D3BACE-6DFB-4718-8B50-81426241196D"},"name":"object__625CD289_14C2_4D31_8EFA_AD0F24D4A1A6__Scorp_Direction","type":"float","value":1.0},{"@class":"VariantVariable","id":{"uuid":"28BA753D-07D8-439B-A5BA-5E83E0827B91"},"name":"object__625CD289_14C2_4D31_8EFA_AD0F24D4A1A6__Scorp_Speed","type":"float","value":1.0},{"@class":"VariantVariable","id":{"uuid":"0450AF73-096B-4F67-AFA7-BBEA01A12685"},"name":"object__8626C4A8_1B73_4D54_997B_2227B1CE3EB2__exit_time","type":"bool","value":true},{"@class":"VariantVariable","id":{"uuid":"8B585156-1E04-4BF5-8C19-3C587E81BDFE"},"name":"object__8A7D924B_BB8E_483E_9CD2_A0236B95380F__exit_time","type":"bool","value":true},{"@class":"VariantVariable","id":{"uuid":"E06CD690-49A0-4804-807A-8DD7B08ED8BC"},"name":"object__F9C47200_E728_4D61_8C60_83AD9E2CDB7F__Scorp_Direction","type":"float","value":1.0},{"@class":"VariantVariable","id":{"uuid":"432A1720-30E9-4CE1-ACB2-34AF0B3AAB47"},"name":"object__F9C47200_E728_4D61_8C60_83AD9E2CDB7F__Scorp_Speed","type":"float","value":1.0}]}
+{
+  "@class": "VariousSymbolTable",
+  "id": {
+    "uuid": "777D4E1E-A4E3-4796-8278-456CFB772E75"
+  },
+  "variables": [
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "4C100503-6193-4584-A82C-27D0F2499672"
+      },
+      "name": "object__17F73B54_6D50_4C83_8BEC_DD89E8597E4C__Direction",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "582D1AB2-40E9-410E-A15D-F53CDDA7F1D0"
+      },
+      "name": "object__17F73B54_6D50_4C83_8BEC_DD89E8597E4C__Pos_x",
+      "type": "float",
+      "value": 0
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "7DF7ECF2-8E6A-4B9D-AEF9-D7292269BE14"
+      },
+      "name": "object__2833DFA8_C3A3_4DB9_B4B0_F57D70A9546C__Direction",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "3C8FB8D2-F81C-46FF-8743-1D38AABF645B"
+      },
+      "name": "object__2833DFA8_C3A3_4DB9_B4B0_F57D70A9546C__Pos_x",
+      "type": "float",
+      "value": 0
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "E000C4BB-8270-4296-B049-A978E688A656"
+      },
+      "name": "object__2ECB3BA4_F2F4_42DD_86E8_322283040C6C__animation_playing",
+      "type": "float",
+      "value": 0
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "57536806-BCA9-4CD4-8779-46BF04B3632E"
+      },
+      "name": "object__2FA6F5CF_ABBB_4F79_BCA3_467873494B1F__exit_time",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "6C98B095-A1AD-494D-BC0F-FBAC1BAB30C5"
+      },
+      "name": "object__5693F046_251D_4294_81AE_00D8806FFE88__Scorp_Direction",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "3A05D5B0-119F-4661-BFDC-168257F89285"
+      },
+      "name": "object__5693F046_251D_4294_81AE_00D8806FFE88__Scorp_Speed",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "E6D3BACE-6DFB-4718-8B50-81426241196D"
+      },
+      "name": "object__625CD289_14C2_4D31_8EFA_AD0F24D4A1A6__Scorp_Direction",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "28BA753D-07D8-439B-A5BA-5E83E0827B91"
+      },
+      "name": "object__625CD289_14C2_4D31_8EFA_AD0F24D4A1A6__Scorp_Speed",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "0450AF73-096B-4F67-AFA7-BBEA01A12685"
+      },
+      "name": "object__8626C4A8_1B73_4D54_997B_2227B1CE3EB2__exit_time",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "8B585156-1E04-4BF5-8C19-3C587E81BDFE"
+      },
+      "name": "object__8A7D924B_BB8E_483E_9CD2_A0236B95380F__exit_time",
+      "type": "bool",
+      "value": true
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "E06CD690-49A0-4804-807A-8DD7B08ED8BC"
+      },
+      "name": "object__F9C47200_E728_4D61_8C60_83AD9E2CDB7F__Scorp_Direction",
+      "type": "float",
+      "value": 1
+    },
+    {
+      "@class": "VariantVariable",
+      "id": {
+        "uuid": "432A1720-30E9-4CE1-ACB2-34AF0B3AAB47"
+      },
+      "name": "object__F9C47200_E728_4D61_8C60_83AD9E2CDB7F__Scorp_Speed",
+      "type": "float",
+      "value": 1
+    }
+  ]
+}

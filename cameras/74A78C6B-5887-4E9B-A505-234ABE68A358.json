@@ -1,1 +1,12 @@
-{"@class":"Camera","id":{"uuid":"74A78C6B-5887-4E9B-A505-234ABE68A358"},"name":"MainCamera","cameraType":"orthogonal","zNear":0.10000000149011612,"zFar":2000.0,"fov":53.83807373046875,"aspectRatio":1.8879055976867676}
+{
+  "@class": "Camera",
+  "id": {
+    "uuid": "74A78C6B-5887-4E9B-A505-234ABE68A358"
+  },
+  "name": "MainCamera",
+  "cameraType": "orthogonal",
+  "zNear": 0.10000000149011612,
+  "zFar": 2000,
+  "fov": 53.83807373046875,
+  "aspectRatio": 1.8879055976867676
+}
